@@ -1,0 +1,131 @@
+﻿Achieved
+Adapted
+Analyzed
+Budgeted
+Collaborated
+Communicated
+Completed
+Consistently
+Coordinated
+Created
+Customer service
+Data analysis
+Demonstrated
+Developed
+Efficient
+Excel
+Flexible
+Forecasted
+Generated
+Improved
+Initiative
+Innovative
+Leadership
+Managed
+Marketed
+Motivated
+Negotiated
+Organized
+Performance
+Problem-solving
+Process improvement
+Proficient
+Project management
+Quality control
+Results-oriented
+Sales
+Strategic planning
+Teamwork
+Time management
+Training and development
+Troubleshooting
+Verbal communication
+Written communication
+Workflow
+Adaptability
+Attention to detail
+Critical thinking
+Deadline-driven
+Interpersonal skills
+Multitasking
+Agile development
+Algorithms
+API design
+AWS (Amazon Web Services)
+Backend development
+Big Data
+Cloud computing
+Code quality
+Computer Science
+Continuous Integration (CI)
+Cybersecurity
+Data Analytics
+Data Mining
+Database management
+Debugging
+DevOps
+Distributed systems
+Frontend development
+Full-stack development
+Git
+HTML/CSS
+Information Security
+Infrastructure
+Internet of Things (IoT)
+IT operations
+JavaScript
+Kubernetes
+Machine Learning
+Microservices
+Mobile Development
+Network Architecture
+Object-oriented programming (OOP)
+Performance Optimization
+Programming languages (e.g., Python, Java, C++)
+RESTful APIs
+Scalability
+Security protocols
+Software Architecture
+Software Development Life Cycle (SDLC)
+Software Engineering
+System Administration
+UI/UX design
+Virtualization
+Web Application Development
+Web Services
+Workflow Automation
+XML
+JSON
+Docker
+Test-driven development (TDD)
+Biology
+Biotechnology
+Chemistry
+Clinical Research
+Data Analysis
+Environmental Science
+Fieldwork
+Lab Research
+Microscopy
+Molecular Biology
+Natural Science
+Neuroscience
+Pharmaceutical Science
+Physics
+Research & Development (R&D)
+Scientific Method
+Statistics
+Aerospace Engineering
+Automotive Engineering
+Civil Engineering
+Electrical Engineering
+Mechanical Engineering
+Project Management
+Quality Assurance
+Robotics
+Simulation & Modeling
+Structural Engineering
+Systems Engineering
+Technical Design
+Technical Writing
+Thermodynamics

@@ -1,0 +1,225 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="HomeDemo.master.cs" Inherits="Test.HomeDemo" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+
+    <title>Demo - TakoResume</title>
+
+     <!-- Bootstrap CSS -->
+     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+
+      <!-- Custom CSS style sheet -->
+     <link href="css custom/Style.css" rel="stylesheet" />
+
+      <!--Datatables CSS -->
+     <link href="datatables/css/jquery.dataTables.min.css" rel="stylesheet" />
+
+     <!--FontAwesome-->
+     <link href="fontawesome-free-6.3.0-web/css/all.css" rel="stylesheet" />
+
+     <!-- Custom CSS stule sheet and JS -->
+     <link href="css%20and%20js%20custom/Style.css" rel="stylesheet" />
+
+
+      <!-- Bootstrap JS Bundle with Popper-->
+     <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+
+</head>
+
+
+<body>
+    <form id="form1" runat="server">
+      
+
+         <!--Top Header -->
+     <header runat="server">
+          <div class="p-1" id="topHeader">
+
+               <div class="container-fluid">
+                    <div class="row">
+
+                         <div class="col-12 text-lg-end">
+
+                              <a class="p-1" href="tel:direct call"> <i class="fa-solid fa-phone-flip p-1"></i>281-283-3700</a>
+                              <a class="p-1" href="mailto:los.senores.help@gmail.com"> <i class="fa-solid fa-envelope p-1"></i>los.senores.help@gmail.com</a>
+
+
+                         </div>
+
+                    </div>
+
+               </div>
+          </div>
+          <!-- Navigation Bar -->
+          <div id="NavigationBar" runat="server">
+               <div class="container-fluid" runat="server">
+
+                    <nav class="navbar navbar-dark  navbar-expand-md " style="background-color: #636e72" runat="server">
+
+                         <a class="navbar-brand" style="margin-inline: 10px ">
+                              <img class="img-fluid" src="img/logo.png" style="width: 80px;height: 80px;" alt="" />
+                              <a class="navbar-brand" style="margin-inline: 10px;">TakoResume</a>
+                         </a>
+
+                         <button data-bs-toggle="collapse" data-bs-target="#navbarToggler" type="button" class="navbar-toggler" style="margin-inline:10px">
+                              <span class="navbar-toggler-icon"></span>
+                         </button>
+
+                         <div class=" collapse navbar-collapse" id="navbarToggler" runat="server">
+                              <ul class="navbar-nav me-auto mb-2 mb-lg-0" style=" margin-inline: 10px">
+
+                                   <li class="nav-item active">
+                                        <a class="nav-link active" aria-current="page" href="Home.aspx">Home</a>
+                                   </li>
+
+                                   <li class="nav-item dropdown">
+                                        <a class="nav-link active dropdown-toggle" data-bs-toggle="dropdown" role="button"
+                                           href="#">Resumes</a>
+                                        <div class="dropdown-menu">
+                                             <a class="dropdown-item" href="TemplateSelection.aspx">Resumes Builder</a>
+                                             <div class="dropdown-divider"></div>
+                                            <%-- <a class="dropdown-item" href="#">Resumes Checker</a>
+                                            <div class="dropdown-divider"></div>--%>
+                                             <a class="dropdown-item" href="ResumeUpload.aspx">Resumes Grader</a>
+                                        </div>
+                                   </li>
+
+                                 <%--  <li class="nav-item-active">
+                                        <a class="nav-link active" href="#">About Us</a>
+                                   </li>
+
+                                   <li class="nav-item-active">
+                                        <a class="nav-link active" href="#">Contact Us</a>
+                                   </li>--%>
+
+                                  </ul>
+
+                              <ul class="navbar-nav" style=" margin-inline: 10px" runat="server">
+                                   <li class="nav-item active" id="createAccountFeature" runat="server">
+                                        <asp:LinkButton class ="nav-link active" ID="btnAccountCreation" runat="server"
+                                             OnClick="btnAccountCreation_Click">Create Account</asp:LinkButton>
+                                   </li>
+                                   <li class="nav-item active" id="loginFeature" runat="server">
+                                        <asp:LinkButton class ="nav-link active" ID="btnLogin" runat="server"
+                                             OnClick="btnLogin_Click">Log In</asp:LinkButton>
+                                   </li>
+                                   <li class="nav-item active" id="logoutFeature" runat="server">
+                                        <asp:LinkButton class ="nav-link active" ID="btnLogout" runat="server"
+                                             OnClick="btnLogOut_Click">Log Out</asp:LinkButton>
+                                   </li>
+                                   <li class="nav-item active" id="userDashboardFeature" runat="server">
+                                        <asp:LinkButton class ="nav-link active" ID="btnDashboard" runat="server"
+                                             OnClick="btnUserDashboard_Click">User Dashboard</asp:LinkButton>
+                                   </li>
+
+                              </ul>
+
+
+                         </div>
+
+                    </nav>
+
+               </div>
+          </div>
+
+     </header>
+
+
+
+
+         <!--- Main Content Placeholder -->
+         <div>
+              <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+
+              </asp:ContentPlaceHolder>
+         </div>
+          <!--- Main Content Placeholder -->
+
+
+
+
+          <!-- Top Footer-->
+     <footer class="full-footter">
+
+          <div class="container top-footer p-md-3 p-3">
+
+               <div class="row">
+
+                    <div class="col-md-3">
+
+                         <img class="img-fluid fa-bounce" src="img/logo.png" style="width: 80px;height: 80px;" alt="" />
+                         <p>
+                              TakoResume was created by the Los Senores team at the University of Houston - Clear Lake
+
+                         </p>
+                         <a style="color: #a29bfe;" class="p-1" href="#"><i class="fa-brands fa-2x fa-github"></i></a>
+                         <a style="color: #a29bfe;" class="p-1" href="#"><i class="fa-brands fa-2x fa-google"></i></a>
+                         <a style="color: #a29bfe;" class="p-1" href="#"><i class="fa-brands fa-2x fa-linkedin"></i></a>
+
+                    </div>
+
+                    <div class="col-md-3">
+
+                         <h3>Important Links</h3>
+                         <a href=" #">Privacy Policy</a><br>
+                         <a href="https://www.uhcl.edu/science-engineering/">UHCL College of Science and Engineering</a><br>
+                         <a href=" #">Resources</a><br>
+
+                    </div>
+
+                    <div class="col-md-3">
+
+                         <h3>Our Services</h3>
+                         <a href=" TemplateSelection.aspx">Resume Builder</a><br>
+                         <a href=" ResumeUpload.aspx">Resume Grader</a><br>
+                         <%--<a href=" #">Upload Resume</a><br>
+                         <a href=" #">File Conversion</a><br>--%>
+
+                    </div>
+
+                    <div class="col-md-3">
+
+                         <h3>Contact Us</h3>
+                         <a class="p-1" href="tel:direct call"> <i class="fa-solid fa-phone-flip p-1 fa-shake"></i>281-283-3700</a><br>
+                         <a class="p-1" href="mailto:los.senores.help@gmail.com"> <i class="fa-solid fa-envelope p-1 fa-flip"></i>los.senores.help@gmail.com</a>
+                         <div class="embed-responsive embed-responsive-16x9">
+                              <iframe class="ratio > *"
+                                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3469.79133482685!2d-95.10128378397869!3d29.580674047284248!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86409dcd00161205%3A0xf1914da077431586!2sUniversity%20of%20Houston-Clear%20Lake!5e0!3m2!1sen!2sus!4v1677357796427!5m2!1sen!2sus"
+                                      frameborder="0"></iframe>
+                         </div>
+
+                    </div>
+
+
+
+               </div>
+
+          </div>
+
+          <!-- Bottom Footer-->
+          <div class="container-fluid bottom-footer pt-2">
+               <div class="row">
+                    <div class="col-12 text-center">
+                         <p>Copyrights &copy 2023 - All Rights Reserved</p>
+                    </div>
+               </div>
+
+          </div>
+
+     </footer>
+
+
+    </form>
+
+     
+
+
+</body>
+</html>

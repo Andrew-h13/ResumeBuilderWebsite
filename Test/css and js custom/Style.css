@@ -1,0 +1,59 @@
+﻿#topHeader{badge text-bg-light
+     background-color:ghostwhite;
+     border-bottom: 1px solid silver;
+     
+}
+
+#topHeader a {
+     color: #a29bfe;
+     font-weight: 600;
+     font-size: 0.89rem;
+}
+
+
+.container-fluid {
+     padding-left: 0;
+     padding-right: 0;
+}
+
+
+.nav-link {
+     color: #dfe6e9;
+     font-weight: 600;
+     font-size: 1.1rem;
+}
+
+
+/* START: Footer */
+.full-footter {
+     background-color: #636e72;
+
+     /*REMOVE WHEN CONTENT ADDED*/
+/*     position: absolute;
+     bottom:0;
+     width: 100%;  */ 
+     /**************************/
+}
+
+.top-footer p {
+     color: #dfe6e9;
+     
+}
+
+.top-footer a {
+     color: #dfe6e9;
+     font-weight: 600;
+}
+.top-footer h3 {
+     color: #dfe6e9;
+     
+}
+
+.bottom-footer {
+     background-color: #2d3436;
+}
+.bottom-footer p {
+     color: #dfe6e9;
+}
+
+/* END: Footer */
